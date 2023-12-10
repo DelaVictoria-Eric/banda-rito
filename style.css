@@ -145,8 +145,8 @@
 }
 
 .container{
-    padding-bottom: 50px !important;
-    padding-top: 50px !important;
+    padding-bottom: 75px !important;
+    padding-top: 75px !important;
 }
 
 .image-block{
@@ -189,3 +189,8 @@
     display: none;
     background-color: whitesmoke !important;
 }
+
+.card-img-top {
+    height: 200px; /* Set the desired height for your images */
+    object-fit: cover; /* This property ensures that the image covers the entire container while maintaining its aspect ratio */
+  }
