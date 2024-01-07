@@ -23,3 +23,18 @@ $(document).ready(function(){
 			return false;
 		});
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+	var photoModal = new bootstrap.Modal(document.getElementById('photoModal'));
+	var modalImage = document.getElementById('modalImage');
+
+	// Handle click on photos-item class
+	document.querySelectorAll('.photos-item').forEach(function (img) {
+		img.addEventListener('click', function () {
+			var imagePath = this.getAttribute('data-image');
+			modalImage.src = imagePath;
+			photoModal.show();
+		});
+	});
+});
+

@@ -90,7 +90,7 @@
 }
 
 .mock-logo{
-    border: 2px solid #000;
+   padding-left: 30px;
     max-width: 100%;
     height: auto;
     flex-shrink: 0;
@@ -194,3 +194,46 @@
     height: 200px; /* Set the desired height for your images */
     object-fit: cover; /* This property ensures that the image covers the entire container while maintaining its aspect ratio */
   }
+
+.card-title a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.card-title a:hover{
+    
+    color: grey;
+}
+
+.socials {
+    padding-top: 20px;
+    display: flex;
+}
+
+.more-photos{
+    padding: 80px;
+
+}
+
+.photos-item{
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.gallery-bg{
+    background-color: #FBF9F1;
+}
+
+#logo {
+    width: 50px; /* Set the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.logo-container{
+    text-align: center;
+    margin-top: 50px;
+}
